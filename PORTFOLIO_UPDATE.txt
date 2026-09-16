@@ -1,0 +1,17 @@
+Brode Designz portfolio update
+
+Added:
+- 21 portfolio designs from the supplied Samples folder
+- Embroidery Digitizing and Vector Artwork categories
+- Responsive gallery with category filters
+- Existing API/Supabase portfolio items are still supported
+- Existing Before/After slider remains available for API items that have before/after images
+
+The new portfolio images are in:
+public/portfolio/
+
+The portfolio data is in:
+src/data/portfolio.ts
+
+The portfolio page is:
+src/pages/Portfolio.tsx
