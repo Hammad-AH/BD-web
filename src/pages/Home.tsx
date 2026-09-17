@@ -480,15 +480,6 @@ export default function Home(){
             <div className="relative rounded-[26px] bg-white p-2.5 shadow-[0_30px_80px_rgba(0,0,0,0.35)]">
               <div className="rounded-[18px] overflow-hidden aspect-[4/3.2] bg-bg-2 relative">
                 <div className="w-full h-full p-2">
-  {/*
-    VIDEO OPTION:
-    Drop your Tajima video into: public/videos/tajima-embroidery.mp4
-    It will autoplay (muted, looped) here in place of a static image.
-    "poster" shows as a fallback frame while the video loads, or if you
-    haven't added the mp4 yet (browsers show a blank frame with no poster
-    fallback if the src 404s, so keep the poster image in /public/portfolio/
-    as a safety net).
-  */}
   <video
     src="/videos/tajima-embroidery.mp4"
     poster="/portfolio/tajima-hero.jpg"
@@ -507,7 +498,7 @@ export default function Home(){
               </div>
               <div className="absolute -bottom-5 -left-5 bg-white rounded-[16px] px-4 py-3 shadow-[0_12px_32px_rgba(10,26,51,0.18)] border border-black/5 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center"><Zap className="w-5 h-5"/></div>
-                <div><div className="font-heading font-bold text-[13px] text-navy-dark leading-none">Avg. 8h delivery</div><div className="text-[11px] text-body mt-1">Fastest in industry</div></div>
+                <div><div className="font-heading font-bold text-[13px] text-navy-dark leading-none">Avg. 6h delivery</div><div className="text-[11px] text-body mt-1">Fastest in industry</div></div>
               </div>
               <div className="absolute -top-4 -right-3 bg-navy-dark text-white rounded-[16px] px-4 py-3 shadow-[0_16px_36px_rgba(0,0,0,0.3)]">
                 <div className="text-[10px] font-bold tracking-widest uppercase text-white/50">What we deliver</div>
