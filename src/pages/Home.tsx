@@ -12,7 +12,7 @@ import type { Testimonial } from '../components/Testimonials'
 import BeforeAfter from '../components/BeforeAfter'
 
 const SVCS = [
-  { slug:'embroidery-digitizing', title:'Embroidery Digitizing', desc:'Manual production-ready digitizing for DST, PES, BMB, PDF and EMB.', icon:Scissors, stat:'From $10' },
+  { slug:'embroidery-digitizing', title:'Embroidery Digitizing', desc:'Manual production-ready digitizing for DST, PES, BMP, PDF and EMB.', icon:Scissors, stat:'From $10' },
   { slug:'vector-artwork', title:'Vector Artwork', desc:'Clean manual redraws for print, signs, cutting and apparel production. AI, SVG, CDR, EPS and PDF', icon:Palette, stat:'From $15' },
   { slug:'custom-patches', title:'Custom Patches', desc:'Embroidered, Woven, PVC, Chenille and Leather patch artwork.', icon:Award, stat:'Custom quote' },
   { slug:'dtf-dtg-sheets', title:'DTF & DTG Sheets', desc:'Production-ready gang sheets with clean layouts and color correction.', icon:Printer, stat:'Custom quote' },
