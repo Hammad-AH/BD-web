@@ -27,8 +27,8 @@ export default function Stats(){
       <div className="absolute inset-0" style={{backgroundImage:`url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M0 0h40v40H0V0zm40 40h40v40H40V40z'/%3E%3C/g%3E%3C/svg%3E")`,opacity:0.5}} />
       <div className="absolute inset-0 bg-[radial-gradient(600px_at_10%_0%,rgba(79,195,247,0.22),transparent_60%),radial-gradient(500px_at_100%_100%,rgba(255,255,255,0.08),transparent_60%)]" />
       <div className="relative max-w-[1280px] mx-auto px-6 py-14 md:py-20 grid grid-cols-2 lg:grid-cols-4 gap-10 md:gap-8">
-        <Stat value={120+} suffix="+" label="Designs Delivered" sub="Digitizing, vector graphics & patches shipped" />
-        <Stat value={40+} suffix="+" label="Happy Clients" sub="Apparel brands & embroidery shops" />
+        <Stat value={120} suffix="+" label="Designs Delivered" sub="Digitizing, vector graphics & patches shipped" />
+        <Stat value={40} suffix="+" label="Happy Clients" sub="Apparel brands & embroidery shops" />
         <Stat value={4.9} suffix=" /5" label="Avg. Client Rating" sub="Based on 450+ verified reviews" />
         <Stat value={7} suffix="+" label="Years Crafting" sub="Wilcom E4.5 – manual only" />
       </div>
