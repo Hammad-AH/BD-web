@@ -12,15 +12,15 @@ import type { Testimonial } from '../components/Testimonials'
 import BeforeAfter from '../components/BeforeAfter'
 
 const SVCS = [
-  { slug:'embroidery-digitizing', title:'Embroidery Digitizing', desc:'Manual production-ready digitizing for DST, PES, JEF, EXP and EMB.', icon:Scissors, stat:'From $15' },
-  { slug:'vector-artwork', title:'Vector Artwork', desc:'Clean manual redraws for print, signs, cutting and apparel production.', icon:Palette, stat:'From $12' },
-  { slug:'custom-patches', title:'Custom Patches', desc:'Embroidered, woven, PVC, chenille and leather patch artwork.', icon:Award, stat:'Custom quote' },
+  { slug:'embroidery-digitizing', title:'Embroidery Digitizing', desc:'Manual production-ready digitizing for DST, PES, BMB, PDF and EMB.', icon:Scissors, stat:'From $10' },
+  { slug:'vector-artwork', title:'Vector Artwork', desc:'Clean manual redraws for print, signs, cutting and apparel production. AI, SVG, CDR, EPS and PDF', icon:Palette, stat:'From $15' },
+  { slug:'custom-patches', title:'Custom Patches', desc:'Embroidered, Woven, PVC, Chenille and Leather patch artwork.', icon:Award, stat:'Custom quote' },
   { slug:'dtf-dtg-sheets', title:'DTF & DTG Sheets', desc:'Production-ready gang sheets with clean layouts and color correction.', icon:Printer, stat:'Custom quote' },
-  { slug:'custom-hats', title:'Custom Hats', desc:'3D puff, flat embroidery and patch-ready hat artwork with mockups.', icon:Shirt, stat:'Custom quote' },
+  { slug:'custom-hats', title:'Custom Hats', desc:'3D puff, flat embroidery and patch-ready hat artwork with mockups.', icon:Shirt, stat:'From $10' },
   { slug:'vehicle-graphics-wraps', title:'Vehicle Graphics & Wraps', desc:'Custom livery, vinyl graphics, fleet branding and print-ready cut artwork.', icon:Zap, stat:'Custom quote' },
 ]
 const WHY = [
-  { icon:Zap, title:'Fast Turnaround', desc:'Clear turnaround times and quick communication so production keeps moving.' },
+  { icon:Zap, title:'Fast Turnaround Time', desc:'Clear turnaround times and quick communication so production keeps moving.' },
   { icon:ShieldCheck, title:'Production Focused', desc:'Artwork is prepared for real embroidery, print and apparel production.' },
   { icon:Users2, title:'Manual Artwork', desc:'No blind auto-tracing — artwork is reviewed and prepared with production in mind.' },
   { icon:Clock3, title:'Easy Communication', desc:'Send your artwork, tell us what you need and get a straightforward quote.' },

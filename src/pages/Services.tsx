@@ -3,8 +3,8 @@ import { useEffect } from 'react'
 import { ArrowUpRight, Check } from 'lucide-react'
 import BrandMark from '../components/BrandMark'
 const SERVICES = [
-  { slug:'embroidery-digitizing', title:'Embroidery Digitizing', icon:'embroidery' as const, desc:'Manual production-ready digitizing for DST, PES, JEF, EXP and EMB. 3D puff, applique, small lettering and cap work.', points:['Manual digitizing','3D preview + stitch count','Machine-ready formats'], stat:'From $15' },
-  { slug:'vector-artwork', title:'Vector Artwork', icon:'vector' as const, desc:'Manual vector redraws for clean print, cut and sign production. AI, EPS, SVG, PDF and more.', points:['Manual rebuild','Unlimited resolution','Print & cut ready'], stat:'From $12' },
+  { slug:'embroidery-digitizing', title:'Embroidery Digitizing', icon:'embroidery' as const, desc:'Manual production-ready digitizing for DST, PES, JEF, EXP and EMB. 3D puff, applique, small lettering and cap work.', points:['Manual digitizing','3D preview + stitch count','Machine-ready formats'], stat:'From $10' },
+  { slug:'vector-artwork', title:'Vector Artwork', icon:'vector' as const, desc:'Manual vector redraws for clean print, cut and sign production. AI, EPS, SVG, PDF and more.', points:['Manual rebuild','Unlimited resolution','Print & cut ready'], stat:'From $15' },
   { slug:'custom-patches', title:'Custom Patches', icon:'patches' as const, desc:'Embroidered, woven, PVC, chenille and leather patch artwork with clean production specifications.', points:['Digital mockup','Multiple backing options','Bulk support'], stat:'Custom quote' },
   { slug:'dtf-dtg-sheets', title:'DTF & DTG Sheets', icon:'dtf' as const, desc:'Gang sheets prepared for apparel printing with clean layouts, color correction and production-ready files.', points:['Color corrected','300 DPI artwork','Gang-sheet optimized'], stat:'Custom quote' },
   { slug:'custom-hats', title:'Custom Hats', icon:'hats' as const, desc:'3D puff, flat embroidery and patch-ready hat artwork with front, side and back mockups.', points:['Hat mockups','3D puff options','Production-ready files'], stat:'Custom quote' },

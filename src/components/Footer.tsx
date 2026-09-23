@@ -28,7 +28,7 @@ export default function Footer(){
           <div className="md:col-span-4">
             <div className="flex items-center gap-3.5">
               <div className="w-12 h-12 rounded-[14px] overflow-hidden ring-1 ring-white/10 shadow-lg"><img src="/logo.jpg" alt="" className="w-full h-full object-cover"/></div>
-              <div><div className="font-heading font-extrabold text-white text-[18px] leading-none">Brode Designz</div><div className="flex items-center gap-1.5 mt-1"><div className="w-5 h-[2px] rounded-full bg-blue-light"/><div className="text-[9.5px] tracking-[0.22em] font-bold text-blue-light uppercase">Craft Stitch Create</div></div></div>
+              <div><div className="font-heading font-extrabold text-white text-[18px] leading-none">Brode Designz</div><div className="flex items-center gap-1.5 mt-1"><div className="w-5 h-[2px] rounded-full bg-blue-light"/><div className="text-[9.5px] tracking-[0.22em] font-bold text-blue-light uppercase"></div></div></div>
             </div>
             <p className="mt-5 text-[14px] leading-7 text-white/55 max-w-[390px]">
   Brode Designz is a professional design company specializing in embroidery digitizing, vector artwork, custom patches, and apparel graphics. We work with clients, businesses, and brands worldwide, helping them turn their logos and creative ideas into high-quality designs ready for embroidery, printing, and production.
