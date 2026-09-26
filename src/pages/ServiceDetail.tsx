@@ -9,7 +9,7 @@ const MAP:Record<string,any>={
   'embroidery-digitizing':{title:'Embroidery Digitizing', what:'Digitizing converts your artwork into a stitch file embroidery machines read. Our Wilcom-certified specialists manually plot stitch direction, density, underlay, and pull compensation – so your sew is clean, minimal trims, zero gaps.', benefits:[{t:'Perfect Registration',d:'Push-pull compensation prevents gaps & overlaps on seams.'},{t:'Minimal Trims',d:'Smart sequencing cuts machine time & thread breaks.'},{t:'All Machine Formats',d:'DST, PES, JEF, EXP, EMB, CND – any 2 head to 20 head.'},{t:'Tricky Fabrics',d:'Small lettering <5mm, 3D puff, caps, towels – optimized.'}], process:[{s:'Upload Art',d:'PNG, JPG, PDF, AI – even photo of stitch.'},{s:'Manual Digitizing',d:'Senior Wilcom artist plots every stitch manually.'},{s:'Proof & Edit',d:'3D stitch preview + sew-out report. Free tweaks.'},{s:'Production File',d:'Final file + lifetime backup – ready to run.'}], pricing:'From $10 – bulk $08. Rush 2-4h. 100% free revisions.'},
   'vector-artwork':{title:'Vector Artwork', what:'Vector converts low-res raster to infinitely scalable AI, EPS, SVG. We redraw manually with pen tool – sharp nodes, perfect curves, Pantone matched. Never auto-trace.', benefits:[{t:'True Manual Vector',d:'Pen-tool rebuild – razor edges, clean nodes.'},{t:'Pantone Matched',d:'Spot colors + layered separations for screen print.'},{t:'Any Use',d:'Screen, DTG, embroidery, signage, cut vinyl presets.'},{t:'Same Day',d:'Most vectors in 6-12h with unlimited edits.'}], process:[{s:'Send Raster',d:'JPG, PNG – even blurry photo of shirt.'},{s:'Manual Redraw',d:'Illustrator expert rebuilds pixel-perfect.'},{s:'Unlimited Revisions',d:'Tweak until razor perfect – no extra fee.'},{s:'Vector Delivery',d:'AI, EPS, SVG, PDF, CDR – all included.'}], pricing:'From $15 per design – unlimited revisions, no hidden fees.'},
   'custom-patches':{title:'Custom Patches', what:'Custom patches 50 pcs to 10k – embroidered 75% coverage, woven fine detail, PVC, chenille, leather – any shape, merrowed or laser cut border, 50+ backing options.', benefits:[{t:'All Patch Types',d:'Embroidered, woven, PVC, leather, chenille.'},{t:'Any Backing',d:'Iron-on, velcro, peel-stick, sew-on, magnetic.'},{t:'Bulk Pricing',d:'$5 @100pcs down to $3 @1000+.'},{t:'Free Mockup',d:'Digital proof + physical sample option – before pay.'}], process:[{s:'Design & Quote',d:'Upload art – mockup + pricing same day.'},{s:'Approve Mockup',d:'Front mockup with backing & border choice.'},{s:'Production',d:'7-12 day production, rush 5 days.'},{s:'Ship Worldwide',d:'Quality check + tracked shipping.'}], pricing:'From $5/ pc at 100 pcs. $3 @1000+. Free mockup.'},
-  'dtf-dtg-sheets':{title:'DTF & DTG Sheets', what:'We build 22x24” gang sheets for DTF film – color corrected ICC, channels merged, white underbase tuned, ready to press. No ghosting, no color shift, maximum designs per sheet.', benefits:[{t:'Color Corrected ICC',d:'Print-accurate – matches DTF film RIP.'},{t:'300 DPI Crisp',d:'High DPI – no pixelation on press.'},{t:'Gang Optimized',d:'Max designs per sheet – save on transfers.'},{t:'Weed Lines Removed',d:'Cut paths cleaned – ready to press.'}], process:[{s:'Send Logos',d:'PNG, AI, multiple files for one gang sheet.'},{s:'We Layout',d:'We arrange + color correct + white base.'},{s:'PDF Proof',d:'Dimensions & qty proof for approval.'},{s:'Ready PNG',d:'RIP-ready PNG for DTF printer.'}], pricing:'$0.35 to $1.13 per linear inch or $5.00 to $7.00 per linear foot, depending on the size, quantity, and print type – unlimited logos on sheet.'},
+  'dtf-dtg-sheets':{title:'DTF & DTG Sheets', what:'We build 22x24” gang sheets for DTF film – color corrected ICC, channels merged, white underbase tuned, ready to press. No ghosting, no color shift, maximum designs per sheet.', benefits:[{t:'Color Corrected ICC',d:'Print-accurate – matches DTF film RIP.'},{t:'300 DPI Crisp',d:'High DPI – no pixelation on press.'},{t:'Gang Optimized',d:'Max designs per sheet – save on transfers.'},{t:'Weed Lines Removed',d:'Cut paths cleaned – ready to press.'}], process:[{s:'Send Logos',d:'PNG, AI, multiple files for one gang sheet.'},{s:'We Layout',d:'We arrange + color correct + white base.'},{s:'PDF Proof',d:'Dimensions & qty proof for approval.'},{s:'Ready PNG',d:'RIP-ready PNG for DTF printer.'}], pricing:'$1.10 to $1.25 per linear inch or $5.00 to $7.00 per linear foot, depending on the size, quantity, and print type – unlimited logos on sheet.'},
   'custom-hats':{title:'Custom Hats', what:'From digitizing to sample – structured, unstructured, trucker, snapback, bucket & beanie. 3D puff, flat, applique + patch combos with front/side/back photoreal mockups.', benefits:[{t:'Photoreal Mockups',d:'See your hat before production.'},{t:'Puff Expert',d:'Clean puff edges and controlled stitch density.'},{t:'Flexible Quantities',d:'Suitable for one-off artwork and repeat production.'},{t:'Cap Sequencing',d:'Center-out sequencing helps reduce puckering.'}], process:[{s:'Send Logo',d:'Any logo + hat style – we advise best fit.'},{s:'3D Mockup',d:'Front, side, back presentation.'},{s:'Digitize for Cap',d:'Hat-specific underlay and sequence.'},{s:'Production File',d:'Final files prepared for production.'}], pricing:'Custom quote based on artwork complexity and placement.'},
   'vehicle-graphics-wraps':{title:'Vehicle Graphics & Wraps', what:'Custom vehicle graphics for cars, vans, pickups and fleets — from logo placement and door graphics to full livery concepts and cut-ready vinyl artwork.', benefits:[{t:'Custom Livery',d:'Graphics built around the vehicle and brand.'},{t:'Print & Cut Ready',d:'Clean artwork for vinyl print and plotter workflows.'},{t:'Fleet Consistency',d:'Repeatable layouts for multiple vehicles.'},{t:'Mockup First',d:'Review the concept before production.'}], process:[{s:'Send Vehicle + Brand',d:'Share vehicle photos, measurements and logos.'},{s:'Concept Layout',d:'We build the visual direction and placements.'},{s:'Proof & Revise',d:'Review the mockup and request adjustments.'},{s:'Production Artwork',d:'Final print/cut artwork is prepared.'}], pricing:'Custom quote based on vehicle size, coverage and artwork complexity.'},
 }
@@ -42,7 +42,52 @@ export default function ServiceDetail(){
           <div className="mt-8 grid grid-cols-3 gap-3">{[{k:'Avg Turn',v:'12h'},{k:'Revisions',v:'Free'},{k:'Accuracy',v:'99.2%'}].map(i=> <div key={i.k} className="rounded-[16px] bg-bg border border-black/5 p-4 text-center"><div className="font-heading font-extrabold text-[18px] text-navy-dark">{i.v}</div><div className="text-[10px] font-bold tracking-widest uppercase text-body-2 mt-1">{i.k}</div></div>)}</div>
         </div>
         <div className="rounded-[24px] border border-black/5 bg-white p-3 shadow-[0_16px_40px_rgba(10,26,51,0.08)]">
-          <img src={slug === 'vehicle-graphics-wraps' ? '/portfolio/vehicle-wrap-neon.svg' : slug === 'custom-patches' ? '/portfolio/patch-badge-original.svg' : slug === 'custom-hats' ? '/portfolio/cap-3d.jpg' : slug === 'vector-artwork' ? '/portfolio/dragon.png' : '/portfolio/left-chest.jpg'} alt={data.title} className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg" loading="lazy" />
+          {slug === 'vehicle-graphics-wraps' ? (
+  <img
+    src="/portfolio/vehicle-wrap-neon.svg"
+    alt={data.title}
+    className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
+    loading="lazy"
+  />
+) : slug === 'custom-patches' ? (
+  <img
+    src="/portfolio/patch-badge-original.svg"
+    alt={data.title}
+    className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
+    loading="lazy"
+  />
+) : slug === 'custom-hats' ? (
+  <img
+    src="/portfolio/cap-3d.jpg"
+    alt={data.title}
+    className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
+    loading="lazy"
+  />
+) : slug === 'vector-artwork' ? (
+  <img
+    src="/portfolio/dragon.png"
+    alt={data.title}
+    className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
+    loading="lazy"
+  />
+) : (
+  <div className="grid grid-cols-2 gap-2 rounded-[16px] overflow-hidden bg-bg aspect-[4/3]">
+    {[
+      '/portfolio/sign.jpg',
+      '/portfolio/sign-2.jpg',
+      '/portfolio/sign-3.jpg',
+      '/portfolio/sign-4.jpg',
+    ].map((src, i) => (
+      <img
+        key={src}
+        src={src}
+        alt={`${data.title} sample ${i + 1}`}
+        className="w-full h-full object-cover"
+        loading="lazy"
+      />
+    ))}
+  </div>
+)}
           <div className="mt-3 rounded-[14px] bg-navy-dark text-white p-4 flex items-center justify-between"><div><div className="text-[11px] uppercase tracking-widest text-white/50 font-bold">Quality Check</div><div className="font-heading font-bold text-[14px] mt-1 text-white">✓ Wilcom senior reviewed</div></div><div className="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center">✓</div></div>
         </div>
       </section>
