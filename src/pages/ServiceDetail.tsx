@@ -51,14 +51,14 @@ export default function ServiceDetail(){
   />
 ) : slug === 'custom-patches' ? (
   <img
-    src="/portfolio/patch-badge-original.svg"
+    src="/portfolio/patches.png"
     alt={data.title}
     className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
     loading="lazy"
   />
 ) : slug === 'custom-hats' ? (
   <img
-    src="/portfolio/cap-3d.jpg"
+    src="/portfolio/cap.png"
     alt={data.title}
     className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
     loading="lazy"

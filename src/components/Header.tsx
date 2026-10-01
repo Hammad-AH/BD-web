@@ -114,7 +114,9 @@ export default function Header(){
               </div>
               <div className="p-6 border-t border-black/5 space-y-3 bg-bg/60">
                 <a href="mailto:info@brodedesignz.com" className="flex items-center justify-center gap-2 w-full h-12 rounded-full bg-white border border-black/10 text-navy-dark font-bold text-[14px]"><MailIcon className="w-4 h-4"/> Email Us</a>
-                <Link to="/get-a-quote" className="flex items-center justify-center gap-2 w-full h-12 rounded-full btn-primary font-bold text-[14px]"><Sparkles className="w-4 h-4"/> Get a Free Quote</Link>
+                <Link to="/get-a-quote" className="flex items-center justify-center w-full h-12 rounded-full btn-primary font-bold text-[14px]">
+  Get a Free Quote
+</Link>
                 <p className="text-center text-[11px] text-body-2">Fast replies • Worldwide service</p>
               </div>
             </motion.div>
