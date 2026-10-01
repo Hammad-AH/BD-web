@@ -44,7 +44,7 @@ export default function ServiceDetail(){
         <div className="rounded-[24px] border border-black/5 bg-white p-3 shadow-[0_16px_40px_rgba(10,26,51,0.08)]">
           {slug === 'vehicle-graphics-wraps' ? (
   <img
-    src="/portfolio/vehicle-wrap-neon.svg"
+    src="/portfolio/vehicle-wrap.png"
     alt={data.title}
     className="rounded-[16px] w-full aspect-[4/3] object-contain bg-bg"
     loading="lazy"
