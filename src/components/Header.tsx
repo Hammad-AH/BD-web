@@ -42,7 +42,10 @@ export default function Header(){
               <img src="/logo.jpg" alt="Brode Designz BD monogram" className="w-full h-full object-cover scale-[1.02]" />
             </div>
             <div className="leading-[1.05]">
-              <div className="font-brand font-extrabold text-[18px] md:text-[19px] tracking-tight text-navy-dark">Brode Designz</div>
+             <div className="font-brand font-extrabold text-[18px] md:text-[19px] tracking-tight">
+  <span className="text-[#0A1A33]">BRODE</span>{" "}
+  <span className="text-[#1565C0]">DESIGNZ</span>
+</div>
               <div className="flex items-center gap-1.5 mt-0.5"><div className="h-[2px] w-6 rounded-full grad-brand"/><div className="text-[9.5px] tracking-[0.22em] font-bold text-blue-accent uppercase"></div></div>
             </div>
           </Link>
@@ -79,9 +82,12 @@ export default function Header(){
               <div className="text-right leading-tight"><div className="text-[11px] font-bold tracking-widest uppercase text-body-2">Email Us</div><a href="mailto:info@brodedesignz.com" className="font-heading font-bold text-[14px] text-navy-dark hover:text-blue-mid">info@brodedesignz.com</a></div>
               <div className="w-10 h-10 rounded-full bg-bg-2 border border-black/5 flex items-center justify-center text-navy-dark"><MailIcon className="w-4 h-4"/></div>
             </div>
-            <Link to="/get-a-quote" className="hidden md:inline-flex items-center gap-2 h-[42px] px-6 rounded-full btn-primary text-[14px] font-bold tracking-wide focus-ring">
-              <Sparkles className="w-4 h-4"/> Get a Quote
-            </Link>
+           <Link
+  to="/get-a-quote"
+  className="hidden md:inline-flex items-center h-[42px] px-6 rounded-full btn-primary text-[14px] font-bold tracking-wide focus-ring"
+>
+  Get a Quote
+</Link>
             <button onClick={()=>setDrawer(!drawer)} className="lg:hidden w-11 h-11 rounded-full bg-navy-dark text-white flex items-center justify-center focus-ring flex-shrink-0" aria-label="Toggle menu">{drawer ? <X className="w-[18px] h-[18px]"/> : <Menu className="w-[18px] h-[18px]"/>}</button>
           </div>
         </div>
